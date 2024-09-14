@@ -47,5 +47,9 @@
         double promedioComisiones = totalComisiones / 3;
 
         //Verificar si hay beneficio extra
+        double totalVentas = venta1 + venta2 + venta3;
+        double beneficioExtra = (totalVentas >= 1000000) ? 100000 : 0;
+
+        // Mostrar resultados
     }
 }

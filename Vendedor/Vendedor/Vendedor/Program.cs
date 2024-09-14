@@ -44,5 +44,8 @@
         }
 
         //Calcular el promedio de las comisiones
+        double promedioComisiones = totalComisiones / 3;
+
+        //Verificar si hay beneficio extra
     }
 }

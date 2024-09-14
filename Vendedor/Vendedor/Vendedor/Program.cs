@@ -27,8 +27,22 @@
         //Calcular total recibido en el mes
         double totalRecibido = sueldoBase + totalComisiones;
 
+        //Identificar la venta con mayor comision
+        double comisionMayor = comision1;
+        double ventaMayor = venta1;
 
+        if (comision2 > comisionMayor)
+        {
+            comisionMayor = comision2;
+            ventaMayor = venta2;
+        }
 
+        if (comision3 > comisionMayor)
+        {
+            comisionMayor = comision3;
+            ventaMayor = venta3;
+        }
 
+        //Calcular el promedio de las comisiones
     }
 }

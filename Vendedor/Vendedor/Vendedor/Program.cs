@@ -2,6 +2,10 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        //Solicitar por teclado sueldo base
+        Console.Write("Ingrese el sueldo base del vendedor:  ");
+        double sueldoBase = Convert.ToDouble(Console.ReadLine());
+
+
     }
 }

@@ -21,6 +21,9 @@
         double comision2 = venta2 * 0.10;
         double comision3 = venta3 * 0.10;
 
+        //Calcular total de comisiones
+        double totalComisiones = comision1 + comision2 + comision3;
+
 
 
 

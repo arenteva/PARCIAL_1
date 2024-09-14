@@ -50,6 +50,13 @@
         double totalVentas = venta1 + venta2 + venta3;
         double beneficioExtra = (totalVentas >= 1000000) ? 100000 : 0;
 
-        // Mostrar resultados
+        //Mostrar resultados
+        Console.WriteLine($"Comisiones totales por las tres ventas: {totalComisiones:C0}");
+        Console.WriteLine($"Total recibido en el mes (sueldo base + comisiones + beneficio extra): {totalRecibido + beneficioExtra:C0}");
+        Console.WriteLine($"Venta que generó la mayor comisión: {ventaMayor:C0}");
+        Console.WriteLine($"Promedio de las comisiones: {promedioComisiones:C0}");
+        Console.WriteLine($"Beneficio extra recibido: {beneficioExtra:C0}");
+
+
     }
 }

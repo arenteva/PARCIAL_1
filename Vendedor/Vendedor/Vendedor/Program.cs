@@ -16,6 +16,11 @@
         Console.Write("Ingrese el valor de la venta 3:  ");
         double venta3 = Convert.ToDouble(Console.ReadLine());
 
+        //Calcular comision de las ventas
+        double comision1 = venta1 * 0.10;
+        double comision2 = venta2 * 0.10;
+        double comision3 = venta3 * 0.10;
+
 
 
 

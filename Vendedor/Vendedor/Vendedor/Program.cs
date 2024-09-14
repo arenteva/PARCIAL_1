@@ -24,6 +24,9 @@
         //Calcular total de comisiones
         double totalComisiones = comision1 + comision2 + comision3;
 
+        //Calcular total recibido en el mes
+        double totalRecibido = sueldoBase + totalComisiones;
+
 
 
 
